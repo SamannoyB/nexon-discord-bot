@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+    <script type="text/javascript">
+    	fetch('https://api.tenor.com/v1/search?q=excited&key=LIVDSRZULELA&limit=8')
+    	.then(res => res.json())
+    	.then(data => {
+    		console.log(data);
+    	})
+    </script>
+</body>
+</html>
