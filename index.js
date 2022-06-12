@@ -11,6 +11,13 @@ client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
 
+client.on('messageCreate', () => {
+      if (message.content.startsWith(`nx!ping`){
+             message.react('👍');
+             message.reply('Pong!');
+       }
+});
+
 client.on('messageCreate', message => {
     if(message.content.startsWith('nx!help')){
         message.react('👍');
