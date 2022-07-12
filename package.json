@@ -1,0 +1,26 @@
+{
+  "name": "nexon-discord-bot-folder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SamannoyB/nexon-discord-bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SamannoyB/nexon-discord-bot/issues"
+  },
+  "homepage": "https://github.com/SamannoyB/nexon-discord-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.8.1",
+    "dotenv": "^16.0.1",
+    "node-fetch": "^2.6.7",
+    "nodemon": "^2.0.18"
+  }
+}
